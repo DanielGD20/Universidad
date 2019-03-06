@@ -1,0 +1,268 @@
+
+header
+{
+     margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9)),url(Imagenes/boxes.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 60px;
+    background-color: black;
+     margin: 0;
+    padding: 0;
+
+}
+
+header li:hover{
+    cursor: pointer;
+    background: grey;
+}
+
+p{
+    color: white;
+    position: absolute;
+    font-family: Arial;
+    font-size: 70px;
+     top: 50%;
+    left: 4%;
+    opacity: 0.8;
+}
+
+sub{
+    opacity: 0.8;
+    color: white;
+    position: absolute;
+    font-family: Arial;
+    font-size: 30px;
+     top: 59%;
+    left: 0%;
+    padding: 12px 0 19px;
+    margin: 30px;
+    text-align: justify;
+    padding-top: 50px;
+    padding-right: 640px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+}
+
+body{
+            
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    
+}
+
+
+.logo{
+    float: left;
+    align-content: center;
+    left: 0.8%;
+    top: 0.5%;
+    position: absolute;
+
+}
+
+
+.logo2{
+    position: absolute;
+    left: 94%;
+    top: 0.5%;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    position: absolute;
+    left: 6%;
+  
+}
+
+ul li{
+    
+    float: left;
+    width: 135px;
+    line-height: 60px;
+    font-size: 20px;
+    font-family: Arial;
+    text-align: center;
+    
+}
+
+ul li [name="sesion"]{
+    position: absolute;
+    left: 1400px;
+    
+}
+
+is{
+    float: left;
+    width: 130px;
+    line-height: 60px;
+    font-size: 20px;
+    font-family: Arial;
+    text-align: center;
+    list-style: none;
+    position: absolute;
+    left: 86%;
+}
+
+.loginbox{
+    
+    border-radius: 25px;
+    width: 370px;
+    height: 560px;
+    background:  #fff;
+    color: #000;
+    top: 40%;
+    left: 45%;
+    position: absolute;
+    transform: translate(100%, -30%);
+    box-sizing: border-box;
+    opacity: 0.8;
+    list-style: none;
+    padding: 70px;
+    
+}
+
+.avatar{
+    width: 100px;
+    height: 64px;
+    position: absolute;
+    top: 15px;
+    left: 132px;
+    
+}
+
+
+
+h1{
+    text-align: center;
+    line-height: 30px;
+    padding: 12px 0 9px;
+    font-size: 20px;
+    font-family: Arial;
+    position: 
+    
+}
+
+.loginbox input{
+    
+    width: 100%;
+    margin-bottom: 14px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+}
+
+input[type="submit"]{
+    
+    top: 460px;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 235px;
+    background: #6495ED;
+    color: #fff;
+    font-size: 23px;
+    border-radius: 10px;
+    position: absolute;
+    
+    
+}
+
+[type="submit"]:hover{
+    cursor: pointer;
+    background: DodgerBlue;
+}
+
+input[type=text][name=search] {
+    position: absolute;
+    left: 48%;
+    top: 1.8%;
+    width: 130px;
+    height: 20px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    border-radius: 10px;
+}
+
+
+input[type=text][name=search]:focus {
+    width: 20%;
+}
+
+.bg-modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+.modal-content{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 4px;
+    position: absolute;
+   
+}
+
+mimoji{
+    position: absolute;
+    top: 2px;
+    left: 150px;
+}
+
+.form2{
+    width: 20%;
+    position: absolute;
+    display: block;
+    margin: 40px auto;
+    left: 130px;
+    top: 150px;
+    
+}
+
+.form2 [type='text']{
+    width: 250%;
+    margin-bottom: 14px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 50px;
+    text-align: center;
+    
+}
+
+
+.form2 [type='submit']{
+    position: absolute;
+    top: 180px;
+    left: 11px;
+}
+
+
+
+
+a.factura{
+    text-decoration: none;
+    color: white;
+}
+
+
+

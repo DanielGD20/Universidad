@@ -1,0 +1,295 @@
+header
+{
+     margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9)),url(Imagenes/facturaimg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 60px;
+    background-color: black;
+     margin: 0;
+    padding: 0;
+
+}
+
+header li:hover{
+    cursor: pointer;   
+    background: grey;
+}
+
+body{
+            
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    
+}
+
+.logo{
+    float: left;
+    align-content: center;
+    left: 0.8%;
+    top: 0.5%;
+    position: absolute;
+
+}
+
+.logo2{
+    position: absolute;
+    left: 94%;
+    top: 0.6%;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    position: absolute;
+    left: 6%;
+  
+}
+
+ul li{
+    
+    float: left;
+    width: 135px;
+    line-height: 60px;
+    font-size: 20px;
+    font-family: Arial;
+    text-align: center;
+    
+}
+
+is{
+    float: left;
+    width: 130px;
+    line-height: 60px;
+    font-size: 20px;
+    font-family: Arial;
+    text-align: center;
+    list-style: none;
+    position: absolute;
+    left: 86%;
+}
+
+
+a.factura{
+    text-decoration: none;
+    color: white;
+}
+
+.boxed {
+    position: absolute;
+    width: 1500px;
+    height: 800px;
+    left: 95px;
+    top: 120px;
+    background-color: white;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+content{
+    position: absolute;
+    color: black;
+    left: 123px;
+    top: 140px;
+    z-index: 2;
+}
+
+content [name='title']{
+    width: 400px;
+    position: absolute;
+    left: 200px;
+    font-size: 45px;
+    top: 20px;
+}
+
+content [name='subtitle']{
+    width: 400px;
+    position: absolute;
+    left: 250px;
+    font-size: 30px;
+    top: 65px;
+}
+
+content [type="text"]{
+    width: 100%;
+    margin-bottom: 14px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    
+}
+
+content [name='clientenombre']{
+    width: 600px;
+    position: absolute;
+    left: 90px;
+    font-size: 25px;
+    top: 150px;
+}
+
+content [name='fecha']{
+    width: 600px;
+    position: absolute;
+    left: 90px;
+    font-size: 25px;
+    top: 200px;
+}
+
+content [name='Ruc']{
+    width: 600px;
+    position: absolute;
+    left: 90px;
+    font-size: 25px;
+    top: 250px;
+}
+
+content [name='Direccion']{
+    width: 600px;
+    position: absolute;
+    left:750px;
+    font-size: 25px;
+    top: 200px;
+}
+
+content [name='Telefono']{
+    width: 600px;
+    position: absolute;
+    left:750px;
+    font-size: 25px;
+    top: 250px;
+}
+
+box2{
+    position: absolute;
+    width: 140px;
+    height: 130px;
+    left: 1150px;
+    top: 160px;
+    background-color: none;
+    opacity: 0.5;
+    z-index: 3;
+    border: 3px solid black;
+    border-color: black;
+}
+
+list{
+    
+    top: 330px;
+    position: absolute;
+    width: 1300px;
+    left: 60px;
+    padding: 10px;
+    list-style: none;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.2);
+    word-spacing: 150px;
+    
+}
+
+content [name='2']{
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 370px;
+    position: absolute;
+    left:120px;
+    font-size: 25px;
+    top: 70px;
+}
+
+content [name='1']{
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 110px;
+    position: absolute;
+    left:0px;
+    font-size: 25px;
+    top: 70px;
+}
+
+content [name='3']{
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 140px;
+    position: absolute;
+    left:500px;
+    font-size: 25px;
+    top: 70px;
+}
+
+content [name='4']{
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 240px;
+    position: absolute;
+    left: 650px;
+    font-size: 25px;
+    top: 70px;
+}
+
+content [name='5']{
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 290px;
+    position: absolute;
+    left:900px;
+    font-size: 25px;
+    top: 70px;
+}
+
+content [name='6']{
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 115px;
+    position: absolute;
+    left:1200px;
+    font-size: 25px;
+    top: 70px;
+}
+
+l2{
+    position: absolute;
+    top:50px;
+    left: 0px;
+}
+
+l3{
+    position: absolute;
+    top:100px;
+    left: 0px;
+}
+
+l4{
+    position: absolute;
+    top:150px;
+    left: 0px;
+}
+
+l5{
+    position: absolute;
+    top:200px;
+    left: 0px;
+}
+
+input[type="submit"]{
+    
+    top: 680px;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 235px;
+    background: #764B4B;
+    color: #fff;
+    font-size: 23px;
+    border-radius: 10px;
+    position: absolute;
+    left: 600px;
+    
+    
+}
+
+[type="submit"]:hover{
+    cursor: pointer;
+    background: DodgerBlue;
+}
+
